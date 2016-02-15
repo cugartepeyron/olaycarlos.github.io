@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="top-nav">
 				<!-- An example of changing language in runtime -->
 				<p>
-					<a style="color:white; font-family: Arial" href="#" ng-click="setLang('en_US')">En</a>    |
+					<a style="color:white; font-family: Arial" class="active" href="#" ng-click="setLang('en_US')">En</a>    |
 					<a style="color:white; font-family: Arial" href="#" ng-click="setLang('es_ES')">Es</a>
 				</p>
 				<div class="top-header">
@@ -44,12 +44,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a id="menu-toggle" class="anchor-link" href="#"><img src="images/nav.png" alt="" /></a>
 					<ul class="simple-toggle" id="menu">
 			        	<li class="active"><a href="index.html">{{'HOME' | translate}}</a></li>
-			        	<li><a href="about.html">{{'ABOUT' | translate}}</a></li>
-			        	<li><a href="gallery.html">{{'GALERIA' | translate}}</a></li>
+			        	<li><a href="about.html">{{'DETAILS' | translate}}</a></li>
+			        	<li><a href="about.html">{{'LOCATION' | translate}}</a></li>
+<!-- 			        	<li><a href="about.html">{{'ABOUT' | translate}}</a></li> -->
+<!-- 			        	<li><a href="gallery.html">{{'GALERIA' | translate}}</a></li> -->
 			        	<!-- logo -->
 			        	 <li class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></li>
 			        	<!-- logo -->
-			        	<li><a href="faq.html">{{'FAQ' | translate}}</a></li>
+			        	<li><a href="gallery.html">{{'GALERIA' | translate}}</a></li>
+<!-- 			        	<li><a href="faq.html">{{'FAQ' | translate}}</a></li> -->
 			        	<li><a href="typography.html">{{'SERV' | translate}}</a></li>
 			        	<li><a href="contact.html">{{'CONTACT' | translate}}</a></li>
 			        </ul>
@@ -188,7 +191,10 @@ angular.module('app', ['pascalprecht.translate'])
     "GALERIA"	: "Gallery",
     "FAQ"		: "Faq",
     "SERV"		: "Services",
-    "CONTACT"	: "Contact"
+    "CONTACT"	: "Contact",
+    "DETAILS"	: "Details",
+    "LOCATION"	: "Location"
+    
   });
   // Adding a translation table for the Russian language
   $translateProvider.translations('es_ES', {
@@ -198,11 +204,13 @@ angular.module('app', ['pascalprecht.translate'])
     "GALERIA"	: "Galeria",
     "FAQ"		: "Faq",
     "SERV"		: "Servicios",
-    "CONTACT"	: "Contacto"
+    "CONTACT"	: "Contacto",
+    "DETAILS"	: "Detalles",
+    "LOCATION"	: "Lugar"
   });
   
   // Tell the module what language to use by default
-  $translateProvider.preferredLanguage('en_US');
+  $translateProvider.preferredLanguage('es_ES');
 }])
 .controller('ctrl', ['$scope', '$translate', function($scope, $translate) {
   $scope.tlData = {
