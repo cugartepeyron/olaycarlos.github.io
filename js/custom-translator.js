@@ -16,14 +16,14 @@ angular.module('app', ['pascalprecht.translate'])
   // Adding a translation table for the Russian language
   $translateProvider.translations('es_ES', {
     "TITLE"     : "Ola y Carlos 30.7.2016",
-    "HOME"     : "Inicio",
+    "HOME"      : "Inicio",
     "ABOUT"		: "Sobre",
     "GALERIA"	: "Galeria",
     "FAQ"		: "Faq",
     "SERV"		: "Servicios",
     "CONTACT"	: "Contacto",
     "DETAILS"	: "Detalles",
-    "LOCATION"	: "Lugar"
+    "LOCATION"	: "Lugares"
   });
   
   

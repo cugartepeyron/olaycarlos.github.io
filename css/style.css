@@ -493,6 +493,17 @@ ul.list1 {
 	-moz-border-radius:100px;
 	-o-border-radius:100px;
 }
+.box_5 .put-left-abs-noborder {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width:60px;
+	height:60px;
+	text-align: center;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+}
 .box_5 .put-left-abs .text_6 {
 	padding-top:18px;
 }
@@ -1311,7 +1322,7 @@ p.sed-para {
   font-size: 0.85em;
 }
 .address-more, .address-left {
-  width: 50%;
+  width: 80%;
 }  
 .address-more p, .address-left p {
   font-size: 0.8125em;
