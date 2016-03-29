@@ -1,0 +1,167 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html ng-app='app'>
+<head>
+	<title translate="TITLE"></title>
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+	<!-- <title>Spousal an Wedding Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="OlayCarlos, Ola, Carlos, Lublin" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<!--webfont-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/angular.min.js"></script>
+	<script type="text/javascript" src="./js/angular-translate/angular-translate.js"></script>
+	<script type="text/javascript" src="./js/custom-translator.js"></script>
+	<!----//requred-js-files---->
+</head>
+
+<body ng-controller="ctrl">
+<div class="about_header">
+	<div class="container">
+	        <!---start-top-nav---->
+			<div class="top-nav">
+				<!-- An example of changing language in runtime -->
+				<p align="right">
+					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" class="active" href="#" ng-click="setLang('en_US')">En</a>    |
+					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" href="#" ng-click="setLang('es_ES')">Es</a>
+				</p>
+				<div class="top-header">
+					<div class="logo">
+					   <a href="index.html"><img src="images/logo.png" alt=""/></a>
+					</div>					
+				</div>
+				<nav class="nav1">
+					<a id="menu-toggle" class="anchor-link" href="#"><img src="images/nav.png" alt="" /></a>
+					<ul class="simple-toggle" id="menu">
+			        	<li><a href="index.html">{{'HOME' | translate}}</a></li>
+			        	<li><a href="detalles.html">{{'DETAILS' | translate}}</a></li>
+			        	<li><a href="lugar.html">{{'LOCATION' | translate}}</a></li>
+			        	<li class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></li>
+			        	<li><a href="galeria.html">{{'GALERIA' | translate}}</a></li>
+			        	<li class="active"><a href="servicios.html">{{'SERV' | translate}}</a></li>
+			        	<li><a href="contact.html">{{'CONTACT' | translate}}</a></li>
+			        </ul>
+				</nav>
+				<div class="clearfix"> </div>
+				<script type="text/javascript">
+					  $(document).ready(function() {
+					
+						$('#menu-toggle').click(function () {
+					      $('#menu').toggleClass('open');
+					      e.preventDefault();
+					    });
+					    
+					});
+				</script>
+			</div>
+		<!---End-top-nav---->
+	</div>
+</div>  
+
+<!-- Map -->
+<div class="profile">
+	<div class="container">
+	  <div class="about_box1">
+	  	<h1 class="m_4">
+          Servicios
+        </h1>
+        <p class="m_5">
+           ¡¡¡¡Para que no digáis que no os lo ponemos fácil!!!! Aquí os iremos haciendo un listado con las direcciones de todos los lugares relacionados con nuestra boda. ¡Vamos! Que quien se pierda es porque quiere perderse y no hay más excusas.
+			La cosa funciona muy fácil. Os indicamos el lugar exacto con el teléfono, por si tenéis dudas y queréis llamar, una pequeña descripción de cómo llegar y alguna que otra fotillo.
+        </p>
+        
+       <!--  Hoteles -->
+       <div class="about_grid1">
+         <div class="col-md-12 box2">
+           <h2>Hoteles</h2>
+           <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+			<ul >
+				<li><a target="_blank" href="#">G20 - www.lot.com</a></li>
+				<li><a target="_blank" href="#">Vanilla</a></li>
+				<li><a target="_blank" href="#">Wieniaski</a></li>
+				<li><a target="_blank" href="http://www.hoteleuropa.pl/">Hotel Europa</a></li>
+
+
+	        </ul>
+         
+         </div>
+         <div class="clearfix"> </div>
+       </div>
+       
+       <!--  Peluquerias-->
+       <div class="about_grid1">
+         <div class="col-md-12 box2">
+           <h2>Peluquerias</h2>
+           <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+			<ul >
+				<li><a target="_blank" href="#">G20 - www.lot.com</a></li>
+				<li><a target="_blank" href="#">Vanilla</a></li>
+				<li><a target="_blank" href="#">Wieniaski</a></li>
+				<li><a target="_blank" href="http://www.hoteleuropa.pl/">Hotel Europa</a></li>
+
+	        </ul>
+         
+         </div>
+         <div class="clearfix"> </div>
+       </div>
+
+
+
+
+       
+       
+       </div>
+	</div>
+</div>
+
+
+
+<!--  Footer -->
+   <div class="footer">
+   	 <div class="container">
+   	 	<div class="footer_nav1">
+			<ul>
+	        	<li><a href="index.html">Home</a></li>
+	        	<li><a href="about.html">About</a></li>
+	        	<li><a href="gallery.html">Gallery</a></li>
+	        	<!-- logo -->
+	        	 <li class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></li>
+	        	<!-- logo -->
+	        	<li><a href="faq.html">Faq</a></li>
+	        	<li><a href="services.html">Services</a></li>
+	        	<li><a href="contact.html">Contact</a></li>
+	        </ul>
+		 </div>
+   	    <div class="copy_right">
+           <p>Copyright &copy; 2015 Spousal . All Rights Reserved . Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+	    </div>
+       </div>
+     </div>
+
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.about-grid a').Chocolat({linkImages:false});
+		});
+</script>
+    
+</body>
+</html>		
