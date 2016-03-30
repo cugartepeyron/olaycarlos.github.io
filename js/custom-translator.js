@@ -9,8 +9,8 @@ angular.module('app', ['pascalprecht.translate'])
     "FAQ"		: "Faq",
     "SERV"		: "Services",
     "CONTACT"	: "Contact",
-    "DETAILS"	: "Details",
-    "LOCATION"	: "Location"
+    "DETAILS"	: "La Boda",
+    "LOCATION"	: "Como llegar"
     
   });
   // Adding a translation table for the Russian language
@@ -18,12 +18,12 @@ angular.module('app', ['pascalprecht.translate'])
     "TITLE"     : "Ola y Carlos 30.7.2016",
     "HOME"      : "Inicio",
     "ABOUT"		: "Sobre",
-    "GALERIA"	: "Galeria",
+    "GALERIA"	: "Galería",
     "FAQ"		: "Faq",
-    "SERV"		: "Servicios",
-    "CONTACT"	: "Contacto",
-    "DETAILS"	: "Detalles",
-    "LOCATION"	: "Lugares"
+    "SERV"		: "Más Info",
+    "CONTACT"	: "Turismo",
+    "DETAILS"	: "La Boda",
+    "LOCATION"	: "Como llegar"
   });
   
   
