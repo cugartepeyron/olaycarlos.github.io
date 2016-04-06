@@ -30,15 +30,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 
 <body ng-controller="ctrl">
+
 <div class="about_header">
 	<div class="container">
 	        <!---start-top-nav---->
 			<div class="top-nav">
 				<!-- An example of changing language in runtime -->
-<!-- 				<p align="right"> -->
-<!-- 					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" class="active" href="#" ng-click="setLang('en_US')">En</a>    | -->
-<!-- 					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" href="#" ng-click="setLang('es_ES')">Es</a> -->
-<!-- 				</p> -->
+				<p align="right">
+					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" class="active" href="#" ng-click="setLang('pl_PL')">PL</a>    |
+					<a style="color:white; font-family: Roboto Slab; font-weight: 100;" href="#" ng-click="setLang('es_ES')">ES</a>
+				</p>
 				<div class="top-header">
 					<div class="logo">
 					   <a href="index.html"><img src="images/logo.png" alt=""/></a>
@@ -72,16 +73,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>  
 
-<!-- Map -->
 <div class="profile">
 	<div class="container">
 	  <div class="about_box1">
 	  	<h1 class="m_4">
-          Más info
+          {{'MASINFO_1' | translate}}
         </h1>
         <p class="m_5">
-           Durante los próximos días iremos actualizando esta página con más información.
+           {{'MASINFO_2' | translate}}
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
        </div>
 	</div>
 </div>
@@ -108,14 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
        </div>
      </div>
 
-<script src="js/jquery.chocolat.js"></script>
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-<!--light-box-files -->
-<script type="text/javascript" charset="utf-8">
-$(function() {
-	$('.about-grid a').Chocolat({linkImages:false});
-});
-</script>
+
     
 </body>
 </html>		
