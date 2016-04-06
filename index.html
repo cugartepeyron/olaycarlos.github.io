@@ -25,6 +25,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="./js/angular.min.js"></script>
 	<script type="text/javascript" src="./js/angular-translate/angular-translate.js"></script>
 	<script type="text/javascript" src="./js/custom-translator.js"></script>
+	<script>
+		////Tell the module what language to use by default
+		var loc_lang = localStorage.getItem('loc_lang');
+		if(!loc_lang){
+			localStorage.setItem('loc_lang', 'es_ES');	
+		} 
+	</script>
 	<!----//requred-js-files---->
 </head>
 
