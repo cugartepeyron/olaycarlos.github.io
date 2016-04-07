@@ -291,8 +291,6 @@ angular.module('app', ['pascalprecht.translate'])
   });  
   
   
-  
-	//// Tell the module what language to use by default
 	var loc_lang = localStorage.getItem('loc_lang');
 	if(!loc_lang){
 		localStorage.setItem('loc_lang', 'es_ES');	
