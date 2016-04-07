@@ -1,5 +1,14 @@
 angular.module('app', ['pascalprecht.translate'])
 .config(['$translateProvider', function($translateProvider){
+	
+	
+	  
+	var loc_lang = localStorage.getItem('loc_lang');
+	if(!loc_lang){
+		localStorage.setItem('loc_lang', 'es_ES');	
+	} 
+  	$translateProvider.preferredLanguage(loc_lang);	
+	
   // Adding a translation table for the English language
   $translateProvider.translations('en_US', {
     "TITLE"     : "Ola y Carlos 30.7.2016",
@@ -287,15 +296,9 @@ angular.module('app', ['pascalprecht.translate'])
     "GALERIA_1"	: "Galeria",
     "GALERIA_2"	: "Zdjęcia z wesela"
    
-    	
   });  
   
-  
-	var loc_lang = localStorage.getItem('loc_lang');
-	if(!loc_lang){
-		localStorage.setItem('loc_lang', 'es_ES');	
-	} 
-  	$translateProvider.preferredLanguage(loc_lang);
+
 
 }])
 .controller('ctrl', ['$scope', '$translate', function($scope, $translate) {
