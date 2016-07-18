@@ -6,8 +6,10 @@ angular.module('app', ['pascalprecht.translate'])
 	var loc_lang = localStorage.getItem('loc_lang');
 	if(!loc_lang){
 		localStorage.setItem('loc_lang', 'es_ES');	
-	} 
+	}
+	setTimeout(function(){ $translateProvider.preferredLanguage(loc_lang); }, 1000); 
   	$translateProvider.preferredLanguage(loc_lang);	
+	
 	
   // Adding a translation table for the English language
   $translateProvider.translations('en_US', {
