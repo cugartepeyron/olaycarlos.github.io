@@ -7,8 +7,7 @@ angular.module('app', ['pascalprecht.translate'])
 	if(!loc_lang){
 		localStorage.setItem('loc_lang', 'es_ES');	
 	}
-	setTimeout(function(){ $translateProvider.preferredLanguage(loc_lang); }, 1000); 
-  	$translateProvider.preferredLanguage(loc_lang);	
+	$translateProvider.preferredLanguage(loc_lang);	
 	
 	
   // Adding a translation table for the English language
@@ -315,7 +314,8 @@ angular.module('app', ['pascalprecht.translate'])
    
   });  
   
-
+  $translateProvider.preferredLanguage(loc_lang);	
+			
 
 }])
 .controller('ctrl', ['$scope', '$translate', function($scope, $translate) {
@@ -333,4 +333,5 @@ angular.module('app', ['pascalprecht.translate'])
     $scope.jsTrSimple = $translate.instant('SERVICE');
     $scope.jsTrParams = $translate.instant('SERVICE_PARAMS', $scope.tlData);
   };
+  
 }]);
