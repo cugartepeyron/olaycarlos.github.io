@@ -152,6 +152,14 @@ angular.module('app', ['pascalprecht.translate'])
     
     "MASINFO_1"	: "Más info",
     "MASINFO_2"	: "Durante los próximos días iremos actualizando esta página con más información.",
+
+    "MASINFO_3"	: "App Fotos Movil",
+    "MASINFO_4"	: "Con esta app nos puedes ayudar a compartir las fotos de los mejores momentos. Descárgatela e introduce en código de nuestro álbum. Después solo tienes que subir ahí las fotos.",
+    "MASINFO_5"	: "Accede a este ",
+    "MASINFO_6"	: "link",
+    "MASINFO_7"	: " y descarga la aplicación para móvil desde esta web.",
+	"MASINFO_8"	: "Recuerda utilizar el código de nuestro álbum: ",
+
     
     "GALERIA_1"	: "Galería",
     "GALERIA_2"	: "Momentos de la boda"
@@ -293,6 +301,13 @@ angular.module('app', ['pascalprecht.translate'])
     "MASINFO_1"	: "Więcej informacji",
     "MASINFO_2"	: "Wkrótce będziemy aktualizować stronę o brakujące informacje.",
     
+    "MASINFO_3"	: "App Fotos Movil",
+    "MASINFO_4"	: "Con esta app nos puedes ayudar a compartir las fotos de los mejores momentos. Descárgatela e introduce en código de nuestro álbum. Después solo tienes que subir ahí las fotos.",
+    "MASINFO_5"	: "Accede a este ",
+    "MASINFO_6"	: "link",
+    "MASINFO_7"	: " y descarga la aplicación para móvil desde esta web.",
+	"MASINFO_8"	: "Recuerda utilizar el código de nuestro álbum: ",
+
     "GALERIA_1"	: "Galeria",
     "GALERIA_2"	: "Zdjęcia z wesela"
    
