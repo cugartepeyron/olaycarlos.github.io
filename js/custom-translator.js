@@ -301,14 +301,14 @@ angular.module('app', ['pascalprecht.translate'])
     
     "MASINFO_1"	: "Więcej informacji",
     "MASINFO_2"	: "Wkrótce będziemy aktualizować stronę o brakujące informacje.",
-    
-    "MASINFO_3"	: "App Fotos Movil",
-    "MASINFO_4"	: "Con esta app nos puedes ayudar a compartir las fotos de los mejores momentos. Descárgatela e introduce en código de nuestro álbum. Después solo tienes que subir ahí las fotos.",
-    "MASINFO_5"	: "Accede a este ",
+	
+	"MASINFO_3"	: "Aplikacja zdjęć na telefon", 
+    "MASINFO_4"	: "Z tą aplikacją możecie nam pomóc dzielić się zdjęciami z najlepszych momentów wesela. Ściągnijcie aplikację i piszcie numer naszego albumu. Później jedyne co musicie zrobić, to załadować zdjęcia do albumu.", 
+    "MASINFO_5"	: "Wejdźcie w ten ", 
     "MASINFO_6"	: "link",
-    "MASINFO_7"	: " y descarga la aplicación para móvil desde esta web.",
-	"MASINFO_8"	: "Recuerda utilizar el código de nuestro álbum: ",
-
+    "MASINFO_7"	: " i ściągnijcie aplikację na telefon z tej strony.", 
+	"MASINFO_8"	: "Pamiętajcie aby użyć kodu naszego albumu: ", 
+	
     "GALERIA_1"	: "Galeria",
     "GALERIA_2"	: "Zdjęcia z wesela"
    
