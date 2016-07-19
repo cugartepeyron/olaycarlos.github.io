@@ -7,7 +7,7 @@ angular.module('app', ['pascalprecht.translate'])
 	if(!loc_lang){
 		localStorage.setItem('loc_lang', 'es_ES');	
 	}
-	$translateProvider.preferredLanguage(loc_lang);	
+	
 	
 	
   // Adding a translation table for the English language
@@ -312,10 +312,10 @@ angular.module('app', ['pascalprecht.translate'])
     "GALERIA_1"	: "Galeria",
     "GALERIA_2"	: "Zdjęcia z wesela"
    
-  });  
+  });  	
   
-  $translateProvider.preferredLanguage(loc_lang);	
-			
+  	// Tell the module what language to use by default
+	$translateProvider.preferredLanguage(loc_lang);		
 
 }])
 .controller('ctrl', ['$scope', '$translate', function($scope, $translate) {
@@ -335,3 +335,7 @@ angular.module('app', ['pascalprecht.translate'])
   };
   
 }]);
+
+
+
+
